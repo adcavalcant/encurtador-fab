@@ -1,0 +1,57 @@
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 16px;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card .label {
+    color: grey;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-action {
+    background-color: #f9f9f9;
+    padding: 12px;
+    text-align: right;
+    border-top: 1px solid #ddd;
+}
+
+.card-action a {
+    color: #2196f3;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.card-action a:hover {
+    text-decoration: underline;
+}
+
+input::placeholder {
+    color: #c0c0c0 !important;
+}

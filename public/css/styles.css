@@ -1,0 +1,16 @@
+* {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #c9d7e1;
+}
+
+h2 {
+    color: #4682b6 !important;
+}
+
+a {
+    text-decoration: none;
+}

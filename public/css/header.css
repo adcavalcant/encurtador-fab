@@ -1,0 +1,25 @@
+h1 {
+    color: #f5f5f5 !important;
+}
+
+.gladio-nome-fab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding: 1.5rem;
+    }
+
+    .gladio-nome-fab{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        white-space: nowrap;
+    }
+}
