@@ -16,5 +16,5 @@ use App\Http\Controllers\UrlShortenerController;
 
 Route::get('/', [UrlShortenerController::class, 'index']);
 Route::get('/list', [UrlShortenerController::class, 'read']);
-Route::post('/shorten', [UrlShortenerController::class, 'store']);
+Route::post('/shorten', [UrlShortenerController::class, 'store'])->middleware('customSlugValidation');
 Route::get('/{code}', [UrlShortenerController::class, 'redirect']);
